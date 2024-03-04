@@ -14,7 +14,7 @@ To begin using our website, click on the login button. Depending on your role, c
         </div>
         <div className='mx-20 min-h-[100px] rounded-2xl shadow-2xl bg-white px-10 py-5'>
             <h2 className='font-bold'><span className='mr-5'>Que:</span>Where can I find my ID number?</h2>
-            <h3 className='font-md'><span className='mr-5'>Ans:</span>The ID number will be sent to your Gmail account when the admin adds you as a doctor, nurse, or admin. However, for testing purposes, you can use the following credentials: <span className='font-bold'>ID - 1234</span> and <span className='font-bold'>password - sahilsahil</span>. These credentials can be used to test the features available to anyone - doctors, nurses, and admins.</h3>
+            <h3 className='font-md'><span className='mr-5'>Ans:</span>The ID number will be sent to your Gmail account when the admin adds you as a doctor, nurse, or admin. However, for testing purposes, you can use the following credentials: <span className='font-bold'>ID - 1234</span> and <span className='font-bold'>password - 2024@mnc</span>. These credentials can be used to test the features available to anyone - doctors, nurses, and admins.</h3>
         </div>
         <div className='mx-20  min-h-[100px] rounded-2xl shadow-2xl bg-white px-10 py-5'>
             <h2 className='font-bold'><span className='mr-5'>Que:</span>How can I retrieve my forgotten credentials?</h2>
