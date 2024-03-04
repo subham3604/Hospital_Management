@@ -36,10 +36,12 @@ const adminRegister = async (req, res) => {
 }
 
 const adminLogin = async (req, res) => {
+    console.log("HELLO")
     const { adminID, password } = req.body;
+    console.log(req.body)
     try {
         const admin = await AdminModel.findOne({ adminID, password });
-
+        console.log("ADMIN", admin)
         if (admin) {
             const token = jwt.sign({ foo: "bar" }, process.env.KEY, {
                 expiresIn: "24h",
